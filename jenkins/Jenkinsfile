@@ -4,9 +4,9 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Start'){
+        stage('StartNew'){
             steps {
-                echo "Starting.."
+                echo "Starting new.."
             }
         }    
         stage('Build') {
